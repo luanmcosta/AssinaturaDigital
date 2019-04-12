@@ -26,7 +26,7 @@ public class AssinaturaDigital {
             
             Remetente remetente = new Remetente();
             
-            File arquivo = new File("C:\\Users\\Aurelania\\Documents\\NetBeansProjects\\AssDigital\\AssinaturaDigital\\src\\assinaturadigital\\arquivo.txt");
+            File arquivo = new File("arquivo.txt");
             fis = new FileInputStream(arquivo);
             
             byte[] arquivoBytes = new byte[(int) arquivo.length()];
